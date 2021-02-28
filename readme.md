@@ -1,9 +1,16 @@
 RabbitMQ Database Transaction Producer Bundle
 =============================================
 
+
+**This package is a fork of [`vasek-purchart/rabbit-mq-database-transaction-producer-bundle`](https://github.com/VasekPurchart/Rabbit-Mq-Database-Transaction-Producer-Bundle) maintained for newer PHP and Symfony versions.**
+
+---
+
+
+
 **Publish messages to RabbitMQ producer when database transaction was committed**
 
-> **Note:** This bundle expects you are using [Doctrine DBAL & ORM Bundle](https://github.com/doctrine/DoctrineBundle) and [RabbitMqBundle](https://github.com/php-amqplib/RabbitMqBundle/)
+> **Note:** This bundle expects you are using [Doctrine DBAL & ORM Bundle](https://github.com/doctrine/DoctrineBundle) and [RabbitMqBundle](https://github.com/eMAGTechLabs/RabbitMqBundle)
 
 ### The problem
 
@@ -109,10 +116,10 @@ services:
 Installation
 ------------
 
-Install package [`vasek-purchart/rabbit-mq-database-transaction-producer-bundle`](https://packagist.org/packages/vasek-purchart/rabbit-mq-database-transaction-producer-bundle) with [Composer](https://getcomposer.org/):
+Install package [`mhujer/rabbit-mq-database-transaction-producer-bundle`](https://packagist.org/packages/mhujer/rabbit-mq-database-transaction-producer-bundle) with [Composer](https://getcomposer.org/):
 
 ```bash
-composer require vasek-purchart/rabbit-mq-database-transaction-producer-bundle
+composer require mhujer/rabbit-mq-database-transaction-producer-bundle
 ```
 
 Register the bundle in your application:
